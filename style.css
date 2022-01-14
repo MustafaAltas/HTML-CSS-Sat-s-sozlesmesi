@@ -1,0 +1,53 @@
+body {
+    background-color: lightblue;
+}
+
+#Head {
+    text-align: center;
+}
+#deneme {
+    width: 750px;
+    margin: auto ;
+    background-color: peachpuff;
+}
+
+#isim {
+    margin: 0px 0px 0px 103px;
+}
+
+#soyisim {
+    margin: 0px 0px 0px 82px;
+}
+
+#yaş {
+    margin: 0px 0px 0px 95px;
+    inline-size: 50px;
+}
+
+#mail {
+    margin: 0px 0px 0px 39px;
+    
+
+}
+
+#photo {
+
+    margin: 0px 0px 0px 35px;
+}
+
+#tarih {
+    margin: 0px 0px 0px 80px;
+}
+
+.deneyim-seçenek {
+    contain: ;
+}
+
+#exp {
+    margin-left: 200px;
+}
+
+#Diller {
+
+    margin: 0px 0px 0px 70px;
+}

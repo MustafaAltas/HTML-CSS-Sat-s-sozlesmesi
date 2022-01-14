@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="Head">
+      <h1>Satış Sözleşmesi</h1>
+    </header>
+    <form action="">
+      <section id="deneme">
+        <fieldset>
+          <legend>Sözleşme Onayı</legend>
+          <div>
+            <input type="checkbox" name="onay" id="onay" />
+            <label for="onay"
+              >Aşağıdaki Bilgilerin Doğruluğunu kabul ediyorum ve sözleşmesini
+              onaylıyorum</label
+            >
+            <br /><br />
+            <input type="submit" value="Formu Kaydet" />
+            <input type="reset" value="Formu Temizle" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Kişisel Bilgiler</legend>
+          <div>
+            <label for="id">Form GÜvenlik İD</label>
+            <input type="text" name="Form_güvenlik" id="id" /> <br />
+            <label for="isim">Ad</label>
+            <input type="text" name="isim" id="isim" /> <br />
+            <label for="soyisim">Soyad</label>
+            <input type="text" name="soyisim" id="soyisim" /> <br />
+            <label for="yaş">Yaş:</label>
+            <input type="number" name="age" id="yaş" /> <br />
+            <label for="mail">Mail Adresi : </label>
+            <input
+              type="email"
+              name="eposta"
+              id="mail"
+              placeholder="info@example.com"
+              required
+            />
+            <br />
+            <label for="photo">Fotoğraf Ekle</label>
+            <input type="file" name="fotoğraf" id="photo" required />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Diğer Bilgiler</legend>
+          <h5 style="margin: 0px 50px 10px">
+            Buradaki alanlar mesleki bilgileri kapsar
+          </h5>
+
+          <div>
+            <label for="tarih">Sektöre giriş tarihi</label>
+            <input type="date" name="tarih" id="tarih" min="1990-12-31" max="2022-01-14" /> <br />
+
+            <input type="radio" name="experience" id="exp" /> 1-5 Yıl <br />
+            <label for="exp">Sektör Deneyimi</label
+            ><input
+              type="radio"
+              name="experience"
+              id="exp"
+              style="margin-left: 91px"
+            />
+            6-10 Yıl <br />
+            <input type="radio" name="experience" id="exp" /> 11-15 Yıl <br />
+            <input type="radio" name="experience" id="exp" /> 15 - Üzeri <br />
+
+            <label for="Diller">Programlama dilleri</label>
+            <select name="Dil-Seçimi" id="Diller" size="4" multiple>
+              <option value="C#">C#</option>
+              <option value="PHP">PHP</option>
+              <option value="Python">Python</option>
+              <option value="JavaScript">JavaScript</option>
+              <option value="C++">C++</option>
+              <option value="HTML">HTML</option>
+              <option value="CSS">CSS</option>
+            </select>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Sözleşme Kopyası</legend>
+          <textarea name="comment" id="sözleşme" cols="50" rows="3">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident distinctio recusandae odit voluptas consequatur vero ratione laborum suscipit odio repellat officia fugiat asperiores culpa exercitationem, ex adipisci inventore nesciunt unde.</textarea
+          >
+        </fieldset>
+        <fieldset>
+          <legend>Mail Listesi</legend>
+          <label for="onay">Mail Listesine katlmak <b>İstiyorum.</b> </label>
+          <input type="radio" name="onay" id="onay" checked> <br>
+          <label for="red">Mail Listesine katlmak <b>İstemiyorum</b> </label>
+          <input type="radio" name="red" id="red"> 
+        </fieldset>
+      </section>
+    </form>
+  </body>
+</html>
